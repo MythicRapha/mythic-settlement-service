@@ -3,3 +3,9 @@ dist/
 data/
 .env
 *.log
+.env.*
+!.env.example
+keys/
+*.pem
+*.key
+*.jsonl
