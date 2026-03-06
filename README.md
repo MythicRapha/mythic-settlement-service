@@ -6,7 +6,7 @@ Posts Mythic L2 state roots to Solana L1 for data availability and fraud proof v
 
 1. Polls the Mythic L2 validator for the latest confirmed slot and bank hash
 2. Constructs a state root from the slot number, bank hash, and block time
-3. Submits the state root to the L1 settlement program (`4TrowzShv4CrsuqZeUdLLVMdnDDkqkmnER1MZ5NsSaav`)
+3. Submits the state root to the L1 settlement program (`AiDZ3YKNCMhHcPoa7ASzLFpnUT3rw5NhhsbBLshTt9yQ`)
 4. Records submitted roots locally to avoid duplicate submissions
 
 ## Environment Variables
@@ -21,7 +21,7 @@ Posts Mythic L2 state roots to Solana L1 for data availability and fraud proof v
 
 ## Program IDs
 
-- **L1 Settlement**: `4TrowzShv4CrsuqZeUdLLVMdnDDkqkmnER1MZ5NsSaav`
+- **L1 Settlement**: `AiDZ3YKNCMhHcPoa7ASzLFpnUT3rw5NhhsbBLshTt9yQ`
 - **L2 Settlement**: `MythSett1ement11111111111111111111111111111`
 
 ## Setup

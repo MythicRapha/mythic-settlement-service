@@ -149,7 +149,7 @@ export async function postStateRoot(
     l1Connection,
     transaction,
     [authorityKeypair],
-    { commitment: "confirmed" }
+    { commitment: "confirmed", skipPreflight: true }
   );
 
   // Update local state
